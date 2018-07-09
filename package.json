@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Blowedminds/Blog-Echo-Server#readme",
   "dependencies": {
     "laravel-echo-server": "^1.3.6"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
   }
 }

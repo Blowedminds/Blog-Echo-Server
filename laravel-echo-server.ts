@@ -1,5 +1,5 @@
-{
-	"authHost": "http://localhost:8002",
+const config = {
+	"authHost": "http://localhost:8001",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [
 		{
@@ -16,7 +16,7 @@
 	},
 	"devMode": true,
 	"host": null,
-	"port": "7110",
+	"port": "7000",
 	"protocol": "http",
 	"socketio": {},
 	"sslCertPath": "",
@@ -25,8 +25,10 @@
 	"sslPassphrase": "",
 	"apiOriginAllow": {
 		"allowCors": true,
-		"allowOrigin": "http://localhost:4400",
+		"allowOrigin": "http://localhost:4300",
 		"allowMethods": "GET, POST",
 		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
 	}
-}
+};
+
+export {config}
